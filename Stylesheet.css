@@ -1,0 +1,90 @@
+﻿body {
+}
+
+.content{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    min-height:96vh;
+    margin:auto;
+    border:2px solid black;
+    text-align:center;
+}
+header{
+    background:#1a1a1a; 
+    text-align:center;
+}
+.headerText{
+    margin:auto;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 10vh;
+    color:white;
+}
+form{
+    margin-top:3%
+}
+.text{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+    display:inline;
+    line-height:30px;
+}
+.para{
+    font-weight: 500;
+}
+.textContainer{
+    height:70px;
+    width:auto;
+}
+.table{
+    display:flex;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+    text-align:center;
+    margin:0 auto;
+}
+.row{
+    display:flex;
+    margin:0 auto;
+}
+.column{
+    width:130px;
+    margin:0 auto;
+}
+.col-2-1{
+    color:#ff0000;
+}
+
+.label-1-2{
+    width:180px;
+    text-align:left;
+}
+.button{
+    display:flex;
+    flex-direction:row;
+    -webkit-flex-direction:row;
+    min-width:60px;
+    padding:3px;
+    padding-left:4px;
+    padding-right:4px;
+    border:1px solid white;
+    border-radius:4px;
+    background:#4d4d4d;
+    color:white;
+    display:inline;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+.button:hover{
+    border:1px solid #333333;
+    background:#333333;
+    color:white;
+}
